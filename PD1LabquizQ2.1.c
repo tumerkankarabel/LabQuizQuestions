@@ -7,7 +7,7 @@ int main() {
 	char s3[100];
 	char s4[] = "I Love Programming Languages";
 	int i=0;
-	int sum=0;
+	int sum=0, sum2=0;
 	
 	printf("Enter string: ");
 	gets(s);
@@ -52,15 +52,14 @@ int main() {
 	}
 	printf("Sum of s = %d\n", sum);
 	
-	sum=0;
 	i=0;
 	while(s4[i] != '\0') {
 		if(s4[i] >= 'a' && s4[i] <= 'z') {
-			sum += s4[i];
+			sum2 += s4[i];
 		}
 		i++;
 	}
-	printf("Sum of s4 = %d\n", sum);
+	printf("Sum of s4 = %d\n", sum2);
 	
 	return 0;
 
