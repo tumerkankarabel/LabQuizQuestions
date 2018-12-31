@@ -29,6 +29,7 @@ void sortingArray(int a[], int b[], int size) {
 	}
 	printf("\n%d elements have moved\n", k);	
 }
+
 int main() {
 	
 	int a[SIZE] = {1,9,5,7,3};
